@@ -102,13 +102,6 @@ trainer:
     freeze_embedding: true
     unfreeze_vision_merger: true
     unfreeze_llm_last_n_layers: -1
-
-    freeze_vlm_all: false
-    freeze_act_query: false
-    freeze_flow_action_query: false
-
-    train_flow_only: false
-
     unfreeze_lam_decoder: true
   logging_frequency: 100
   gradient_clipping: 1.0
